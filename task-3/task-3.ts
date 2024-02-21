@@ -16,16 +16,8 @@ let lowercase= () => {
  console.log(lowercase());
 
 
-// let titlecase = () =>{
-//      let splitting = myName.split(" ");
-//      let capitalizing = splitting.map(myName => myName.charAt(0).toUpperCase()+myName.slice(1).toLowerCase());
-//      let rejoining = capitalizing.join(" ")
-//      return rejoining
-    
-// }
-
-
 let titlecase = () => {
+    //First we will convert string into an arrray and see where are the white spaces
     let splitting = myName.split(" ");
     let capitalizing = splitting.map(myName => myName.charAt(0).toUpperCase() + myName.substring(1).toLowerCase());
     let rejoining = capitalizing.join(" ")
