@@ -1,27 +1,44 @@
 // Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 
-const myName = "huzair ahmed khan"
-// console.log(myName.toLowerCase());
-// console.log(myName.toUpperCase());
+// could not able to do it 
 
-console.log(myName.charAt(0).toUpperCase() + myName.slice(1) );
-console.log(myName.split(" "));
+let myName = "huzAir ahmeD kHaN"
+
+let uppercase = () => {
+    return myName.toUpperCase()
+}
+ console.log(uppercase());
 
 
-// function titleCase () {
-//     myName.toUpperCase() 
-//     //input.charAt(0) 
-//     //input.slice(1).toLowerCase()
+let lowercase= () => {
+    return myName.toLowerCase()
+}
+ console.log(lowercase());
+
+
+// let titlecase = () =>{
+//      let splitting = myName.split(" ");
+//      let capitalizing = splitting.map(myName => myName.charAt(0).toUpperCase()+myName.slice(1).toLowerCase());
+//      let rejoining = capitalizing.join(" ")
+//      return rejoining
+    
 // }
 
 
+let titlecase = () => {
+    let splitting = myName.split(" ");
+    let capitalizing = splitting.map(myName => myName.charAt(0).toUpperCase() + myName.substring(1).toLowerCase());
+    let rejoining = capitalizing.join(" ")
+    return rejoining
+}
 
+console.log(titlecase());
 
-
-// console.log(myName);
 
 
 
 
 
 export{}
+
+
