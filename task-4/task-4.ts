@@ -3,6 +3,4 @@
 // Albert Einstein once said, “A person who never made a mistake never tried anything new.”
 
 
-// Without commitment, you’ll never start, but more importantly, without consistency, you’ll never finish. ⁣ ⁣ • Denzel Washington⁣
-
 console.log('Denzel Washington once said, "Without commitment you will never start but more importantly without consistency you will never finish." ');

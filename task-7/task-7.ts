@@ -9,3 +9,4 @@ console.log(multiplication);
 
 let division = 16 / 2;
 console.log(division);
+export{}
