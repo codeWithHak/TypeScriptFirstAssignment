@@ -1,6 +1,5 @@
-let myFriends = ["Huzaifa","Hamza","Khizar"];
-for (const name of myFriends) {
-    let msg = `Hello ${name} let's cath up`
-    console.log(msg); 
-}
+let myFriends = ["Huzaifa" , "Hamza" , "Khizar"]
+console.log(myFriends[0]);
+console.log(myFriends[1]);
+console.log(myFriends[1]);
 export{}
