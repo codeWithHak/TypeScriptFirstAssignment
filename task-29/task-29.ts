@@ -1,4 +1,4 @@
-// includes method is not working i googled it says i have to make changes in my tsconfig.json in lib or change version to es6 or above but its still dosent work so i used other syntax
+// includes method is not working i googled it says i have to make changes in my tsconfig.json in lib or change version to es6 or above but its still dosent work so i used other syntax that i saw on stack overflow
 
 let fruits = ["apple","banana","mango","pineapple"]
 if (fruits.indexOf("apple")!==-1){

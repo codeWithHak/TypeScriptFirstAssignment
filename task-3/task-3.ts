@@ -18,7 +18,7 @@ let titlecase = () => {
 
     let splitting = myName.split(" ");
 
-    //Now that we have every word separated in an array we capitalize the first letter for that we will use map (i don't completely understand map) so it wil iterate throughout our string then we will capitalize the first character of every array item and then we will separate the rest of the array by using substring and conveer it into lowercase.
+    //Now that we have every word separated in an array we capitalize the first letter for that we will use map so it wil iterate throughout our string then we will capitalize the first character of every array item and then we will separate the rest of the array by using substring and conveer it into lowercase.
 
     let capitalizing = splitting.map(myName => myName.charAt(0).toUpperCase() + myName.substring(1).toLowerCase());
 
