@@ -14,5 +14,15 @@ console.log('Less Than check = ',num1 < num2);
 console.log("Greater Than or equals to check = ",num1 >= num2);
 console.log("Less Than or equals to check = ",num1 <= num2);
 
+console.log(num1 && num2);
+console.log(num1 || num2);
+
+let myArr:number[] = [1,2,3,4,5];
+let newArr:number[] = [6];
+console.log(myArr[4]);
+console.log(!myArr[5]);
+
+
+export{}
 
 

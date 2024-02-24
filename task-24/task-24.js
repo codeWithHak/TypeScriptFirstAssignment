@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var name1 = "Huzair";
 var name2 = "Huzaifa";
 console.log("Equality check =", name1 == name2);
@@ -12,3 +14,9 @@ console.log("Greater Than check = ", num1 > num2);
 console.log('Less Than check = ', num1 < num2);
 console.log("Greater Than or equals to check = ", num1 >= num2);
 console.log("Less Than or equals to check = ", num1 <= num2);
+console.log(num1 && num2);
+console.log(num1 || num2);
+var myArr = [1, 2, 3, 4, 5];
+var newArr = [6];
+console.log(myArr[4]);
+console.log(!myArr[5]);
